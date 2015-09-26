@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		6D58B5351BB6CB1A00F2FE71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D58B5341BB6CB1A00F2FE71 /* AppDelegate.swift */; };
-		6D58B5371BB6CB1A00F2FE71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D58B5361BB6CB1A00F2FE71 /* ViewController.swift */; };
 		6D58B53A1BB6CB1A00F2FE71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D58B5381BB6CB1A00F2FE71 /* Main.storyboard */; };
 		6D58B53C1BB6CB1A00F2FE71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D58B53B1BB6CB1A00F2FE71 /* Assets.xcassets */; };
 		6D58B5471BB6CB1A00F2FE71 /* TVrivialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D58B5461BB6CB1A00F2FE71 /* TVrivialTests.swift */; };
 		6D58B5521BB6CB1A00F2FE71 /* TVrivialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D58B5511BB6CB1A00F2FE71 /* TVrivialUITests.swift */; };
+		6D58B5611BB6DD8000F2FE71 /* NicolasCageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D58B5601BB6DD8000F2FE71 /* NicolasCageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,6 @@
 /* Begin PBXFileReference section */
 		6D58B5311BB6CB1A00F2FE71 /* TVrivial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVrivial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D58B5341BB6CB1A00F2FE71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6D58B5361BB6CB1A00F2FE71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6D58B5391BB6CB1A00F2FE71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D58B53B1BB6CB1A00F2FE71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D58B53D1BB6CB1A00F2FE71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		6D58B54D1BB6CB1A00F2FE71 /* TVrivialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVrivialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D58B5511BB6CB1A00F2FE71 /* TVrivialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVrivialUITests.swift; sourceTree = "<group>"; };
 		6D58B5531BB6CB1A00F2FE71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D58B5601BB6DD8000F2FE71 /* NicolasCageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NicolasCageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +95,8 @@
 		6D58B5331BB6CB1A00F2FE71 /* TVrivial */ = {
 			isa = PBXGroup;
 			children = (
+				6D58B55F1BB6DD4400F2FE71 /* QuestionTemplates */,
 				6D58B5341BB6CB1A00F2FE71 /* AppDelegate.swift */,
-				6D58B5361BB6CB1A00F2FE71 /* ViewController.swift */,
 				6D58B5381BB6CB1A00F2FE71 /* Main.storyboard */,
 				6D58B53B1BB6CB1A00F2FE71 /* Assets.xcassets */,
 				6D58B53D1BB6CB1A00F2FE71 /* Info.plist */,
@@ -120,6 +120,14 @@
 				6D58B5531BB6CB1A00F2FE71 /* Info.plist */,
 			);
 			path = TVrivialUITests;
+			sourceTree = "<group>";
+		};
+		6D58B55F1BB6DD4400F2FE71 /* QuestionTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				6D58B5601BB6DD8000F2FE71 /* NicolasCageViewController.swift */,
+			);
+			path = QuestionTemplates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +197,7 @@
 				TargetAttributes = {
 					6D58B5301BB6CB1A00F2FE71 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = H66C886GU6;
 					};
 					6D58B5411BB6CB1A00F2FE71 = {
 						CreatedOnToolsVersion = 7.1;
@@ -251,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D58B5371BB6CB1A00F2FE71 /* ViewController.swift in Sources */,
+				6D58B5611BB6DD8000F2FE71 /* NicolasCageViewController.swift in Sources */,
 				6D58B5351BB6CB1A00F2FE71 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,10 +394,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TVrivial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.herodevelopers.TVrivial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -397,10 +409,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TVrivial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.herodevelopers.TVrivial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
