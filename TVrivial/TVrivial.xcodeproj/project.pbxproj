@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D58B5351BB6CB1A00F2FE71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D58B5341BB6CB1A00F2FE71 /* AppDelegate.swift */; };
+		6D58B5371BB6CB1A00F2FE71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D58B5361BB6CB1A00F2FE71 /* ViewController.swift */; };
+		6D58B53A1BB6CB1A00F2FE71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D58B5381BB6CB1A00F2FE71 /* Main.storyboard */; };
+		6D58B53C1BB6CB1A00F2FE71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D58B53B1BB6CB1A00F2FE71 /* Assets.xcassets */; };
+		6D58B5471BB6CB1A00F2FE71 /* TVrivialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D58B5461BB6CB1A00F2FE71 /* TVrivialTests.swift */; };
+		6D58B5521BB6CB1A00F2FE71 /* TVrivialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D58B5511BB6CB1A00F2FE71 /* TVrivialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D58B5431BB6CB1A00F2FE71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D58B5291BB6CB1900F2FE71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D58B5301BB6CB1A00F2FE71;
+			remoteInfo = TVrivial;
+		};
+		6D58B54E1BB6CB1A00F2FE71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D58B5291BB6CB1900F2FE71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D58B5301BB6CB1A00F2FE71;
+			remoteInfo = TVrivial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D58B5311BB6CB1A00F2FE71 /* TVrivial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVrivial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D58B5341BB6CB1A00F2FE71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D58B5361BB6CB1A00F2FE71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D58B5391BB6CB1A00F2FE71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D58B53B1BB6CB1A00F2FE71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D58B53D1BB6CB1A00F2FE71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D58B5421BB6CB1A00F2FE71 /* TVrivialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVrivialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D58B5461BB6CB1A00F2FE71 /* TVrivialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVrivialTests.swift; sourceTree = "<group>"; };
+		6D58B5481BB6CB1A00F2FE71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D58B54D1BB6CB1A00F2FE71 /* TVrivialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVrivialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D58B5511BB6CB1A00F2FE71 /* TVrivialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVrivialUITests.swift; sourceTree = "<group>"; };
+		6D58B5531BB6CB1A00F2FE71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D58B52E1BB6CB1A00F2FE71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D58B53F1BB6CB1A00F2FE71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D58B54A1BB6CB1A00F2FE71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D58B5281BB6CB1900F2FE71 = {
+			isa = PBXGroup;
+			children = (
+				6D58B5331BB6CB1A00F2FE71 /* TVrivial */,
+				6D58B5451BB6CB1A00F2FE71 /* TVrivialTests */,
+				6D58B5501BB6CB1A00F2FE71 /* TVrivialUITests */,
+				6D58B5321BB6CB1A00F2FE71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D58B5321BB6CB1A00F2FE71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D58B5311BB6CB1A00F2FE71 /* TVrivial.app */,
+				6D58B5421BB6CB1A00F2FE71 /* TVrivialTests.xctest */,
+				6D58B54D1BB6CB1A00F2FE71 /* TVrivialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D58B5331BB6CB1A00F2FE71 /* TVrivial */ = {
+			isa = PBXGroup;
+			children = (
+				6D58B5341BB6CB1A00F2FE71 /* AppDelegate.swift */,
+				6D58B5361BB6CB1A00F2FE71 /* ViewController.swift */,
+				6D58B5381BB6CB1A00F2FE71 /* Main.storyboard */,
+				6D58B53B1BB6CB1A00F2FE71 /* Assets.xcassets */,
+				6D58B53D1BB6CB1A00F2FE71 /* Info.plist */,
+			);
+			path = TVrivial;
+			sourceTree = "<group>";
+		};
+		6D58B5451BB6CB1A00F2FE71 /* TVrivialTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D58B5461BB6CB1A00F2FE71 /* TVrivialTests.swift */,
+				6D58B5481BB6CB1A00F2FE71 /* Info.plist */,
+			);
+			path = TVrivialTests;
+			sourceTree = "<group>";
+		};
+		6D58B5501BB6CB1A00F2FE71 /* TVrivialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D58B5511BB6CB1A00F2FE71 /* TVrivialUITests.swift */,
+				6D58B5531BB6CB1A00F2FE71 /* Info.plist */,
+			);
+			path = TVrivialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D58B5301BB6CB1A00F2FE71 /* TVrivial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D58B5561BB6CB1A00F2FE71 /* Build configuration list for PBXNativeTarget "TVrivial" */;
+			buildPhases = (
+				6D58B52D1BB6CB1A00F2FE71 /* Sources */,
+				6D58B52E1BB6CB1A00F2FE71 /* Frameworks */,
+				6D58B52F1BB6CB1A00F2FE71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVrivial;
+			productName = TVrivial;
+			productReference = 6D58B5311BB6CB1A00F2FE71 /* TVrivial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D58B5411BB6CB1A00F2FE71 /* TVrivialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D58B5591BB6CB1A00F2FE71 /* Build configuration list for PBXNativeTarget "TVrivialTests" */;
+			buildPhases = (
+				6D58B53E1BB6CB1A00F2FE71 /* Sources */,
+				6D58B53F1BB6CB1A00F2FE71 /* Frameworks */,
+				6D58B5401BB6CB1A00F2FE71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D58B5441BB6CB1A00F2FE71 /* PBXTargetDependency */,
+			);
+			name = TVrivialTests;
+			productName = TVrivialTests;
+			productReference = 6D58B5421BB6CB1A00F2FE71 /* TVrivialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D58B54C1BB6CB1A00F2FE71 /* TVrivialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D58B55C1BB6CB1A00F2FE71 /* Build configuration list for PBXNativeTarget "TVrivialUITests" */;
+			buildPhases = (
+				6D58B5491BB6CB1A00F2FE71 /* Sources */,
+				6D58B54A1BB6CB1A00F2FE71 /* Frameworks */,
+				6D58B54B1BB6CB1A00F2FE71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D58B54F1BB6CB1A00F2FE71 /* PBXTargetDependency */,
+			);
+			name = TVrivialUITests;
+			productName = TVrivialUITests;
+			productReference = 6D58B54D1BB6CB1A00F2FE71 /* TVrivialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D58B5291BB6CB1900F2FE71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = herodevelopers;
+				TargetAttributes = {
+					6D58B5301BB6CB1A00F2FE71 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					6D58B5411BB6CB1A00F2FE71 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 6D58B5301BB6CB1A00F2FE71;
+					};
+					6D58B54C1BB6CB1A00F2FE71 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 6D58B5301BB6CB1A00F2FE71;
+					};
+				};
+			};
+			buildConfigurationList = 6D58B52C1BB6CB1900F2FE71 /* Build configuration list for PBXProject "TVrivial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D58B5281BB6CB1900F2FE71;
+			productRefGroup = 6D58B5321BB6CB1A00F2FE71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D58B5301BB6CB1A00F2FE71 /* TVrivial */,
+				6D58B5411BB6CB1A00F2FE71 /* TVrivialTests */,
+				6D58B54C1BB6CB1A00F2FE71 /* TVrivialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D58B52F1BB6CB1A00F2FE71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D58B53C1BB6CB1A00F2FE71 /* Assets.xcassets in Resources */,
+				6D58B53A1BB6CB1A00F2FE71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D58B5401BB6CB1A00F2FE71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D58B54B1BB6CB1A00F2FE71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D58B52D1BB6CB1A00F2FE71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D58B5371BB6CB1A00F2FE71 /* ViewController.swift in Sources */,
+				6D58B5351BB6CB1A00F2FE71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D58B53E1BB6CB1A00F2FE71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D58B5471BB6CB1A00F2FE71 /* TVrivialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D58B5491BB6CB1A00F2FE71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D58B5521BB6CB1A00F2FE71 /* TVrivialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D58B5441BB6CB1A00F2FE71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D58B5301BB6CB1A00F2FE71 /* TVrivial */;
+			targetProxy = 6D58B5431BB6CB1A00F2FE71 /* PBXContainerItemProxy */;
+		};
+		6D58B54F1BB6CB1A00F2FE71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D58B5301BB6CB1A00F2FE71 /* TVrivial */;
+			targetProxy = 6D58B54E1BB6CB1A00F2FE71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D58B5381BB6CB1A00F2FE71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D58B5391BB6CB1A00F2FE71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D58B5541BB6CB1A00F2FE71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		6D58B5551BB6CB1A00F2FE71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D58B5571BB6CB1A00F2FE71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TVrivial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.herodevelopers.TVrivial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D58B5581BB6CB1A00F2FE71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TVrivial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.herodevelopers.TVrivial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D58B55A1BB6CB1A00F2FE71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TVrivialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.herodevelopers.TVrivialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVrivial.app/TVrivial";
+			};
+			name = Debug;
+		};
+		6D58B55B1BB6CB1A00F2FE71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TVrivialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.herodevelopers.TVrivialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVrivial.app/TVrivial";
+			};
+			name = Release;
+		};
+		6D58B55D1BB6CB1A00F2FE71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TVrivialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.herodevelopers.TVrivialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TVrivial;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6D58B55E1BB6CB1A00F2FE71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TVrivialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.herodevelopers.TVrivialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TVrivial;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D58B52C1BB6CB1900F2FE71 /* Build configuration list for PBXProject "TVrivial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D58B5541BB6CB1A00F2FE71 /* Debug */,
+				6D58B5551BB6CB1A00F2FE71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D58B5561BB6CB1A00F2FE71 /* Build configuration list for PBXNativeTarget "TVrivial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D58B5571BB6CB1A00F2FE71 /* Debug */,
+				6D58B5581BB6CB1A00F2FE71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D58B5591BB6CB1A00F2FE71 /* Build configuration list for PBXNativeTarget "TVrivialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D58B55A1BB6CB1A00F2FE71 /* Debug */,
+				6D58B55B1BB6CB1A00F2FE71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D58B55C1BB6CB1A00F2FE71 /* Build configuration list for PBXNativeTarget "TVrivialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D58B55D1BB6CB1A00F2FE71 /* Debug */,
+				6D58B55E1BB6CB1A00F2FE71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D58B5291BB6CB1900F2FE71 /* Project object */;
+}
